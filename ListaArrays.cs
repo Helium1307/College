@@ -55,16 +55,16 @@ namespace ExerciciosEmSala
                         {
                             Console.Clear();
                             Console.WriteLine("Vai digitando idades ai: ");
-                            idades[0] = double.Parse(Console.ReadLine());
+                              idades[0] = double.Parse(Console.ReadLine());
 
                             if (idades[0] < 0)
                             {
                                 Console.WriteLine("Foi mal, mas número negativo não é idade :), Bye");
-                                Console.ReadKey();
-                                Console.Clear();
+                                  Console.ReadKey();
+                                   Console.Clear();
                                 Console.WriteLine("Mas antes. A média aritmética de tudo foi: " + idades[3]);
-                                Console.ReadKey();
-                                break;
+                                  Console.ReadKey();
+                                   break;
                             }
 
                             idades[1]++;
@@ -87,10 +87,10 @@ namespace ExerciciosEmSala
                         
                         Console.Clear();
                         Console.WriteLine("Digite o primeiro número: ");
-                        escolhaDeImpar[0] = int.Parse(Console.ReadLine());
+                          escolhaDeImpar[0] = int.Parse(Console.ReadLine());
                         Console.WriteLine("Digite um segundo número: ");
-                        escolhaDeImpar[1] = int.Parse(Console.ReadLine());
-                        Console.Clear();
+                          escolhaDeImpar[1] = int.Parse(Console.ReadLine());
+                            Console.Clear();
 
                         for (int cont = 0; escolhaDeImpar[0] <= escolhaDeImpar[1]; escolhaDeImpar[0]++)
                         {
@@ -116,7 +116,7 @@ namespace ExerciciosEmSala
                         do
                         {
                             Console.WriteLine("Digite um numero e saiba o quadrado dele: ");
-                            numquad[0] = int.Parse(Console.ReadLine());
+                              numquad[0] = int.Parse(Console.ReadLine());
                             numquad[1] = Math.Pow(numquad[0], 2);
                             if (numquad[0] == 0)
                             {
@@ -127,8 +127,8 @@ namespace ExerciciosEmSala
 
                             Console.Clear();
                             Console.WriteLine("O quadrado de " + numquad[0] + " é: " + numquad[1]);
-                            Console.ReadKey();
-                            numquad[0] = 1;
+                              Console.ReadKey();
+                             numquad[0] = 1;
 
 
 
@@ -143,14 +143,14 @@ namespace ExerciciosEmSala
 
                         Console.Clear();
                         Console.WriteLine("Digite o primeiro número: ");
-                        numeros[0] = int.Parse(Console.ReadLine());
-                        Console.Clear();
+                          numeros[0] = int.Parse(Console.ReadLine());
+                           Console.Clear();
                         Console.WriteLine("Digite o segundo número: ");
-                        numeros[1] = int.Parse(Console.ReadLine());
-                        Console.Clear();
+                          numeros[1] = int.Parse(Console.ReadLine());
+                           Console.Clear();
                         Console.WriteLine("Digite o terceiro número: ");
-                        numeros[2] = int.Parse(Console.ReadLine());
-                        Console.Clear();
+                          numeros[2] = int.Parse(Console.ReadLine());
+                           Console.Clear();
                         numeros[3] = numeros[0];
 
                         for (; numeros[0] <= numeros[2]; numeros[0]++)
@@ -173,9 +173,9 @@ namespace ExerciciosEmSala
 
                         Console.Clear();
                         Console.WriteLine("Digite um número: ");
-                        ddr[0] = double.Parse(Console.ReadLine());
+                          ddr[0] = double.Parse(Console.ReadLine());
                         Console.WriteLine("Digite outro número");
-                        ddr[1] = double.Parse(Console.ReadLine());
+                          ddr[1] = double.Parse(Console.ReadLine());
 
                         ddr[2] = ddr[0] / ddr[1];
                         if (ddr[1] == 0)
@@ -187,7 +187,7 @@ namespace ExerciciosEmSala
                         {
                             Console.Clear();
                             Console.WriteLine("O resultado é: " + String.Format("{0:0.000}", ddr[2]));
-                            Console.ReadKey();
+                              Console.ReadKey();
                         }
                             Console.Clear();
                         break;
@@ -208,7 +208,7 @@ namespace ExerciciosEmSala
                             Console.WriteLine("[3]- Diesel          [4]- Sair");
                             Console.WriteLine("");
                             Console.WriteLine("Selecione uma opção: ");
-                            menu2 = int.Parse(Console.ReadLine());
+                              menu2 = int.Parse(Console.ReadLine());
                             if (menu2 != 1 && menu2 != 2 && menu2 != 3 && menu2 != 4)
                             {
                                 Console.WriteLine("Código Invalido");
@@ -257,13 +257,13 @@ namespace ExerciciosEmSala
                         {
                             Console.Clear();
                             Console.Write("Digite a senha correta: ");
-                            senha[0] = int.Parse(Console.ReadLine());
+                              senha[0] = int.Parse(Console.ReadLine());
 
                             if (senha[0] != senha[1])
                             {
 
                                 Console.Write("Senha incorreta");
-                                Console.ReadKey();
+                                  Console.ReadKey();
                                 senha[0] = 0;
                             }
                             else
